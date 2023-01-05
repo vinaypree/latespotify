@@ -67,7 +67,7 @@ songIndex = parseInt(e.target.id);
 console.log(e.target.classList.contains('fa-play'));
 e.target.classList.remove('fa-play');
 e.target.classList.add('fa-pause');
-audioElement.src = `songs/${songIndex+1}.mp3`;
+audioElement.src = `${songIndex+1}.mp3`;
 masterSongName.innerText = songs[songIndex].songName;
 audioElement.currentTime = 0 ;
 audioElement.play();
@@ -110,7 +110,7 @@ document.getElementById('next').addEventListener('click',()=>{
     {
         songIndex += 1;
     }
-audioElement.src = `songs/${songIndex+1}.mp3`;
+audioElement.src = `${songIndex+1}.mp3`;
 masterSongName.innerText = songs[songIndex].songName;
 makeAllPlay();
 document.getElementById(`${songIndex}`).classList.remove('fa-play');
@@ -129,7 +129,7 @@ document.getElementById('previous').addEventListener('click',()=>{
     {
         songIndex -= 1;
     }
-audioElement.src = `songs/${songIndex+1}.mp3`;
+audioElement.src = `${songIndex+1}.mp3`;
 masterSongName.innerText = songs[songIndex].songName;
 makeAllPlay();
 document.getElementById(`${songIndex}`).classList.remove('fa-play');
