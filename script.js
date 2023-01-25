@@ -7,14 +7,14 @@ let gif = document.getElementById('gif');
 let songitems = Array.from(document.getElementsByClassName('songitem'));
 let masterSongName = document.getElementById('mastersongname');
 let songs = [
-    {songName:"warriyo",filepath:"1.mp3",coverpath:"1.jpg"},
-    {songName:"cielo",filepath:"2.mp3",coverpath:"2.jpg"},
-    {songName:"dead key",filepath:"3.mp3",coverpath:"3.jpg"},
-    {songName:"different",filepath:"4.mp3",coverpath:"4.jpg"},
-    {songName:"salam",filepath:"5.mp3",coverpath:"5.jpg"},
-    {songName:"dhinkchika",filepath:"6.mp3",coverpath:"6.jpg"},
-    {songName:"Ishq",filepath:"7.mp3",coverpath:"7.jpg"},
-    {songName:"begam",filepath:"8.mp3",coverpath:"8.jpg"},
+    {songName:"Manzar kashi",filepath:"1.mp3",coverpath:"1.jpg"},
+    {songName:"Gardish",filepath:"2.mp3",coverpath:"2.jpg"},
+    {songName:"Bandish",filepath:"3.mp3",coverpath:"3.jpg"},
+    {songName:"Darja haraarat",filepath:"4.mp3",coverpath:"4.jpg"},
+    {songName:"Khana Badosh",filepath:"5.mp3",coverpath:"5.jpg"},
+    {songName:"Gulshan",filepath:"6.mp3",coverpath:"6.jpg"},
+    {songName:"Mileya ni",filepath:"7.mp3",coverpath:"7.jpg"},
+    {songName:"Mutaasir",filepath:"8.mp3",coverpath:"8.jpg"},
 
 
 ]
